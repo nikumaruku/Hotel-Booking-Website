@@ -1,0 +1,97 @@
+.search__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.search__item-img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.search__item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search__item-taxiOp {
+  font-size: 12px;
+  background-color: #008009;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.search__item-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.search__item-features {
+  font-size: 12px;
+}
+
+.search__item-cancelOp {
+  font-size: 12px;
+  color: #008009;
+  font-weight: bold;
+}
+
+.search__item-cancelOpSubtitle {
+  font-size: 12px;
+  color: #008009;
+}
+
+.search__item-title {
+  font-size: 20px;
+  color: #0071c2;
+}
+
+.search__item-distance {
+  font-size: 12px;
+}
+
+.search__item-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.search__item-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__item-rating>button{
+    background-color: #0071c2;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color:white;
+
+}
+.search__item-detail_text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap:15px;
+}
+
+.search__item-detail_text>button{
+    background-color: #0071c2;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+
+.search__item-price {
+    font-weight: bold;
+}

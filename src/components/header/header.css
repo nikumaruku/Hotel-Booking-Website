@@ -1,0 +1,141 @@
+.app__header {
+  display: flex;
+  justify-content: center;
+  background-color: #003580;
+  color: white;
+  position: relative;
+}
+
+.app__header-container {
+  /* display: flex; */
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+  background-color: #003580;
+}
+
+.app__header-container.listmode {
+  margin: 20px 0px 0px 0px;
+  background-color: #003580;
+}
+
+.app__header-list__container {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.app__header-list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app__header-list__item.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.app__header-title {
+  margin-top: 30px;
+}
+
+.app__header-desc {
+  margin: 20px 0px;
+}
+
+.app__header-button {
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #0071c2;
+  border-radius: 10px;
+}
+
+.app__header-search {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px 0px;
+  position: absolute;
+
+  width: 100%;
+  max-width: 1024px;
+  bottom: -25px;
+}
+
+.app__header-search_item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-searchInput {
+  border: none;
+  outline: none;
+
+  background-color: black;
+}
+
+.header-searchInput::placeholder {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.app__header-search_text {
+  cursor: pointer;
+  color: white;
+  font-weight: 100;
+}
+
+.app__header-calendar {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.header__option {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.header__option-item {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.header__button-component {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+.header__option-counter_button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: crosshair;
+  background-color: white;
+}
+
+.header__option-counter_button:disabled {
+  cursor: not-allowed;
+}
